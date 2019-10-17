@@ -28,6 +28,8 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
+
 export default class InlineEditor extends InlineEditorBase {}
 
 // Plugins to include in the build.
@@ -52,7 +54,8 @@ InlineEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	Table,
-	TableToolbar
+	TableToolbar,
+	Alignment
 ];
 
 // Editor configuration.
@@ -61,6 +64,7 @@ InlineEditor.defaultConfig = {
 		items: [
 			'heading',
 			'|',
+			'alignment',
 			'bold',
 			'italic',
 			'link',
