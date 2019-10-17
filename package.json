@@ -37,6 +37,7 @@
     "@ckeditor/ckeditor5-easy-image": "^11.0.5",
     "@ckeditor/ckeditor5-editor-inline": "^12.3.0",
     "@ckeditor/ckeditor5-essentials": "^11.0.5",
+    "@ckeditor/ckeditor5-font": "^11.2.2",
     "@ckeditor/ckeditor5-heading": "^11.0.5",
     "@ckeditor/ckeditor5-image": "^14.0.0",
     "@ckeditor/ckeditor5-link": "^11.1.2",
@@ -84,8 +85,6 @@
     "packages/**"
   ],
   "husky": {
-    "hooks": {
-      
-    }
+    "hooks": {}
   }
 }
